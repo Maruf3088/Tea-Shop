@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .font-manrope {
+    font-family: "Manrope", sans-serif;
+  }
+  .btn {
+    background: linear-gradient(
+      270deg,
+      rgb(255, 0, 0) 0%,
+      rgb(255, 137, 56) 100%
+    );
+    padding: 10px 20px;
+  }
+  .bg-card-gradient {
+    background: linear-gradient(
+      180deg,
+      rgb(244, 244, 244),
+      rgba(244, 244, 244, 0) 100%
+    );
+  }
+  .bg-box-1-gradient {
+    background: linear-gradient(
+      270deg,
+      rgb(255, 0, 0) 0%,
+      rgb(255, 137, 56) 100%
+    );
+    opacity: 0.1;
+    border-radius: 10px;
+  }
+  .bg-box-2-gradient {
+    border-radius: 10px;
+    background: rgba(230, 166, 35, 0.1);
+  }
+  .bg-box-3-gradient {
+    border-radius: 10px;
+    background: rgba(87, 118, 57, 0.1);
+  }
+  .bg-box-4-gradient {
+    border-radius: 10px;
+    background: linear-gradient(
+      90deg,
+      rgb(217, 217, 217),
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .s-3-background {
+    border-radius: 10px;
+    background: linear-gradient(
+      270deg,
+      rgb(255, 0, 0) 0%,
+      rgb(255, 137, 56) 100%
+    );
+  }
+}
